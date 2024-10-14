@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 "use client";
 import Image from "next/image";
 import ProfilePicture from "../assets/Marc Ruizenaar Front-end Developer.jpg";
@@ -37,21 +36,11 @@ export default function Header() {
       <div className="corners absolute bottom-[-8px] right-0 z-10 h-5 w-5 rotate-180"></div>
 
       <div className="flex w-full items-center md:justify-normal justify-between gap-6 md:pl-6">
-=======
-import Image from "next/image";
-import ProfilePicture from "../assets/Marc Ruizenaar Front-end Developer.jpg";
-
-export default function Header() {
-  return (
-    <header className="flex items-center justify-between pt-2">
-      <div className="flex items-center gap-6">
->>>>>>> 235cc97164459019d0d3f477b58c790eb44dca78
         <Image
           src={ProfilePicture}
           height={50}
           width={50}
           alt=""
-<<<<<<< HEAD
           className="rounded-full z-50 object-cover"
         />
         <nav className="hidden gap-8 md:flex">
@@ -92,32 +81,6 @@ export default function Header() {
 
       <div className="topBorder absolute bottom-0 left-0 h-[0.2rem] w-full"></div>
     
-=======
-          className="rounded-full object-cover"
-        />
-
-        <nav className="flex gap-4">
-          <a href="#">About me</a>
-          <a href="">Work</a>
-          <a href="">Experience</a>
-          <a href="">Contact</a>
-        </nav>
-      </div>
-
-      <div className="flex items-center gap-6">
-        <a href="" className="flex items-center gap-3">
-          <span class="relative flex h-3 w-3">
-            <span class="bg-mainGreen absolute inline-flex h-full w-full animate-ping rounded-full opacity-75"></span>
-            <span class="relative inline-flex h-3 w-3 rounded-full bg-green-600"></span>
-          </span>
-          <p>Available now</p>
-        </a>
-
-        <a href="" className="rounded bg-black px-4 py-2 text-white">
-          Contact me
-        </a>
-      </div>
->>>>>>> 235cc97164459019d0d3f477b58c790eb44dca78
     </header>
   );
 }

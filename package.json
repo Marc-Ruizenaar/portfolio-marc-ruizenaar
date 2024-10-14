@@ -9,10 +9,7 @@
     "lint": "next lint"
   },
   "dependencies": {
-<<<<<<< HEAD
     "aos": "^3.0.0-beta.6",
-=======
->>>>>>> 235cc97164459019d0d3f477b58c790eb44dca78
     "mongodb": "^6.9.0",
     "next": "14.2.15",
     "react": "^18",
