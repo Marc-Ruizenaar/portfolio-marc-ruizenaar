@@ -23,11 +23,8 @@ export default function AboutMe() {
           Marc Ruizenaar
           <span className="absolute bottom-[-5px] -z-10 block h-1 w-full bg-mainGreen"></span>
         </h2>
-        <p>
-          I'm a Dutch developer living in Stockholm, I've been passionate about
-          coding for the past three years. <br />
-          <br />
-          When I'm not coding, you can probably find me windsurfing or enjoying
+        <p>I&quot;m a Dutch developer living in Stockholm, I&quot;ve been passionate about coding for the past three years. <br /><br />
+          When I&quot;m not coding, you can probably find me windsurfing or enjoying
           other sports.
         </p>
       </div>

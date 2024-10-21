@@ -13,7 +13,7 @@ export default function ItsTime() {
         className="unset-0 absolute -z-10 w-screen object-cover"
       />
 
-      <p className="text-4xl font-bold text-white">It's time!</p>
+      <p className="text-4xl font-bold text-white">It&quot;s time!</p>
       <div className="flex gap-4">
         <a
           href="mailto:info@marcruizenaar.com"
