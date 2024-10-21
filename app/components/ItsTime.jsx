@@ -1,5 +1,5 @@
 import Image from "next/image";
-import BackgroundImage from "../assets/BackgroundImage.jpg";
+import BackgroundImage from "../assets/backgroundImage.jpg";
 
 export default function ItsTime() {
   return (
