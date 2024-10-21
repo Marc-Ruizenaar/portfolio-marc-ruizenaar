@@ -1,6 +1,6 @@
 "use client";
 import Image from "next/image";
-import ProfilePicture from "../assets/Marc Ruizenaar Front-end Developer.jpg";
+import ProfilePicture from "../assets/Marc-Ruizenaar-Front-end-Developer.jpg";
 import { useEffect, useRef } from "react";
 
 export default function Header() {
