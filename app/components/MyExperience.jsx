@@ -91,7 +91,7 @@ export default function MyExperience() {
       <p className="pt-5 font-black pb-5 md:pb-0 leading-8">
         See more on my{" "}
         <a href="https://nl.linkedin.com/in/marcruizenaar" className="relative" target="_blank">
-          linkedin
+          Linkedin
           <span className="absolute bottom-[-5px] left-0 -z-10 block h-1 w-full bg-mainGreen"></span>
 
         </a>{" "}

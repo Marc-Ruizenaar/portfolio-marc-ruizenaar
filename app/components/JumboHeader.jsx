@@ -1,15 +1,15 @@
 export default function JumboHeader() {
   return (
-    <section data-aos="fade-in" className="flex flex-col relative items-center justify-center gap-5 py-5 h-[60vh] text-center">
+    <section className="flex flex-col relative items-center justify-center gap-5 py-5 h-[60vh] text-center">
       <h1 className="relative text-3xl leading-[3.2rem] md:text-6xl font-black md:leading-[5rem]">
         <span className="bg-mainGreen absolute top-[45%] -z-10 h-1 w-full"></span>
         Front-end developer
         <br /> in Stockholm
-      </h1>
+      </h1> 
       <p>
         Hi there, what are you doing on my website?
         <br />
-        If you’re looking for more information, I’m just a call away!
+        If you&rsquo;re looking for more information, I&rsquo;m just a call away!
       </p>
       <a
         className="flex items-center gap-3 rounded-xl bg-black px-5 py-3 text-sm text-white"

@@ -5,21 +5,22 @@ export default function Projects() {
   return (
     <section
       id="work"
-      data-aos="fade-in"
-      className="relative flex flex-col items-center justify-center px-5 sm:px-20 py-10"
+      className="relative flex flex-col items-center justify-center px-5 py-10 sm:px-20"
     >
       <p className="text-mainGray">Work</p>
       <h2 className="mb-8 text-4xl font-black">Websites i made</h2>
-      <div className="flex sm:flex-row flex-col gap-5">
-        <div className="flex flex-col gap-2">
-          <Image
-            src={PortfolioProjectOne}
-            height={200}
-            width={500}
-            alt=""
-            loading="lazy"
-            className="h-[300px] w-full rounded object-cover"
-          />
+      <div className="flex flex-col gap-5 sm:flex-row">
+        <div className="group flex flex-col gap-2">
+          <div className="h-[300px] overflow-hidden rounded">
+            <Image
+              src={PortfolioProjectOne}
+              height={200}
+              width={500}
+              alt=""
+              loading="lazy"
+              className="h-full w-full object-cover duration-1000 group-hover:scale-150"
+            />
+          </div>
           <h3 className="pt-4 font-bold">Nordic restaurant</h3>
           <p>
             Built using vanilla JavaScript and Webpack, this project offers
@@ -27,15 +28,17 @@ export default function Projects() {
           </p>
         </div>
 
-        <div className="flex flex-col gap-2">
-          <Image
-            src={PortfolioProjectOne}
-            height={200}
-            width={500}
-            alt=""
-            loading="lazy"
-            className="h-[300px] w-full rounded object-cover"
-          />
+        <div className="group flex flex-col gap-2">
+          <div className="h-[300px] overflow-hidden rounded">
+            <Image
+              src={PortfolioProjectOne}
+              height={200}
+              width={500}
+              alt="Nordic restaurant portfolio Marc Ruizenaar"
+              loading="lazy"
+              className="h-full w-full object-cover duration-1000 group-hover:scale-150"
+            />
+          </div>
           <h3 className="pt-4 font-bold">Nordic restaurant</h3>
           <p>
             Built using vanilla JavaScript and Webpack, this project offers
