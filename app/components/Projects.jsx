@@ -1,5 +1,6 @@
 import Image from "next/image";
 import PortfolioProjectOne from "../assets/Norwegan-project.jpg";
+import PortfolioProjectTwo from "../assets/luxora-design.png";
 
 export default function Projects() {
   return (
@@ -26,24 +27,25 @@ export default function Projects() {
             Built using vanilla JavaScript and Webpack, this project offers
             seamless page transitions without reloading.{" "}
           </p>
+          <a href="https://marc-ruizenaar.github.io/restaurant_webpack/" target="_blank">To project</a>
         </div>
 
         <div className="group flex flex-col gap-2">
           <div className="h-[300px] overflow-hidden rounded">
             <Image
-              src={PortfolioProjectOne}
+              src={PortfolioProjectTwo}
               height={200}
               width={500}
-              alt="Nordic restaurant portfolio Marc Ruizenaar"
+              alt="Wooden houses portfolio Marc Ruizenaar"
               loading="lazy"
               className="h-full w-full object-cover duration-1000 group-hover:scale-150"
             />
           </div>
-          <h3 className="pt-4 font-bold">Nordic restaurant</h3>
+          <h3 className="pt-4 font-bold">Wooden houses</h3>
           <p>
-            Built using vanilla JavaScript and Webpack, this project offers
-            seamless page transitions without reloading.{" "}
+            Built using Next and Tailwind, focussing on animations.{" "}
           </p>
+          <a href="https://wood-houses-website-gasf.vercel.app/" target="_blank">To project</a>
         </div>
       </div>
 

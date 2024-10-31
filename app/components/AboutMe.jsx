@@ -8,22 +8,28 @@ export default function AboutMe() {
       id="aboutme"
       className="relative flex flex-col items-center gap-10 px-5 py-10 sm:flex-row sm:px-20 sm:py-20"
     >
-      <Image
-        src={ProfilePicture}
-        height={300}
-        width={300}
-        alt="Profile picture Marc Ruizenaar Front-end developer"
-        loading="lazy"
-        className="rounded-full"
-      />
-
+      <div className="w-[300px] h-[300px]">
+        <Image
+          src={ProfilePicture}
+          height={300}
+          width={300}
+          alt="Profile picture Marc Ruizenaar Front-end developer"
+          loading="eager"
+          className="rounded-full"
+          srcSet={`${ProfilePicture}?w=150 150w,
+           ${ProfilePicture}?w=300 300w,
+           ${ProfilePicture}?w=600 600w`}
+          sizes="(max-width: 300px) 150px, 300px"
+        />
+      </div>
       <div>
         <p>My name is</p>
         <h2 className="relative mb-5 w-max text-4xl font-black">
           Marc Ruizenaar
           <span className="absolute bottom-[-5px] -z-10 block h-1 w-full bg-mainGreen"></span>
         </h2>
-        <p>I&quot;m a Dutch developer living in Stockholm, I&quot;ve been passionate about coding for the past three years. <br /><br />
+        <p>I&quot;m a Dutch developer living in Stockholm, I&quot;ve been passionate about coding for the past three years.</p>
+        <p className="mt-2">
           When I&quot;m not coding, you can probably find me windsurfing or enjoying
           other sports.
         </p>

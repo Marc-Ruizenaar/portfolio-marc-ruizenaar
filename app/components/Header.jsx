@@ -38,10 +38,11 @@ export default function Header() {
           height={50}
           width={50}
           alt=""
+          loading="eager"
           className="z-50 rounded-full object-cover"
         />
 
-        <nav id="headerNav" className="hidden gap-8 md:flex">
+        <nav id="headerNav" className="hidden md:gap-4 lg:gap-8 md:flex">
           <a href="#aboutme" className="group relative">
             About me
             <span className="absolute bottom-[-2px] left-0 h-1 w-0 bg-mainGreen duration-300 group-hover:w-full group-hover:transition-all"></span>
