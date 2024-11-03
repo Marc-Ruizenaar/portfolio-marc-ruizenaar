@@ -20,7 +20,7 @@ export default function MyExperience() {
           </h4>
           <p className="pl-4">
             Marketing Hunters is a marketing, design, and development agency
-            based in the Netherlands. Our small team is capable of designing,
+            based in the Netherlands. Our team is capable of designing,
             building, and launching websites and webshops. <br />
             <br /> As a CO-Owner, my responsibilities spanned from leading the
             team, designing/building websites and handling client relations.

@@ -24,13 +24,15 @@ export default function AboutMe() {
       </div>
       <div>
         <p>My name is</p>
-        <h2 className="relative mb-5 w-max text-4xl font-black">
-          Marc Ruizenaar
-          <span className="absolute bottom-[-5px] -z-10 block h-1 w-full bg-mainGreen"></span>
-        </h2>
-        <p>I&quot;m a Dutch developer living in Stockholm, I&quot;ve been passionate about coding for the past three years.</p>
+        <div className="relative w-max">
+          <h2 className="relative mb-5 text-4xl font-black">
+            Marc Ruizenaar
+          </h2>
+          <span className="absolute bottom-[-5px] block h-1 w-full bg-mainGreen"></span>
+        </div>
+        <p>I&rsquo;m a Dutch developer living in Stockholm, I&rsquo;ve been passionate about coding for the past three years. I&rsquo;ve spent these years building custom WordPress themes and plugins.</p>
         <p className="mt-2">
-          When I&quot;m not coding, you can probably find me windsurfing or enjoying
+          When I&rsquo;m not coding, you can probably find me windsurfing or enjoying
           other sports.
         </p>
       </div>
