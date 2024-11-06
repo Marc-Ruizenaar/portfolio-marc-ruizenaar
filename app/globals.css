@@ -15,6 +15,10 @@ body.no-scroll {
   overflow: hidden;
 }
 
+details summary::-webkit-details-marker {
+  display:none;
+}
+
 .leftBorder, .rightBorder {
   background-image: url(./assets/borderX.svg);
   background-repeat: repeat-y;
