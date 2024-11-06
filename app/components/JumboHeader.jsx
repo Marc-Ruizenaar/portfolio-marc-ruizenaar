@@ -7,7 +7,7 @@ export default function JumboHeader() {
 
       <div className="relative">
         <h2 className="font-bold text-xl relative z-10">Seeking a 2 days a week internship</h2>
-        <span className="bg-mainGreen absolute bottom-0  left-0 z-10 h-1 w-full"></span>
+        <span className="bg-mainGreen absolute bottom-0 left-0 h-1 w-full"></span>
 
       </div>
       <p>
