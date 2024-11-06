@@ -66,7 +66,7 @@ export default function Header() {
           id="hamburgerMenu"
           className="md:hidden appearance-none"
         >
-          <summary className="absolute right-10 top-10 z-50 flex cursor-pointer flex-col gap-1">
+          <summary className="absolute right-5 top-5 z-50 p-5 flex cursor-pointer flex-col gap-1">
             <span className="block h-[1px] w-4 bg-black"></span>
             <span className="block h-[1px] w-4 bg-black"></span>
             <span className="block h-[1px] w-4 bg-black"></span>
