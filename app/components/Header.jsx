@@ -64,7 +64,7 @@ export default function Header() {
         <details
           ref={hamburgerMenuRef}
           id="hamburgerMenu"
-          className="md:hidden"
+          className="md:hidden appearance-none"
         >
           <summary className="absolute right-10 top-10 z-50 flex cursor-pointer flex-col gap-1">
             <span className="block h-[1px] w-4 bg-black"></span>

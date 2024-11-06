@@ -11,8 +11,8 @@ export default function Projects() {
       <p className="text-mainGray">Work</p>
       <h2 className="mb-8 text-4xl font-black">Websites I&rsquo;ve created</h2>
       <div className="flex flex-col gap-5 sm:flex-row">
-        <div className="group flex w-1/2 flex-col gap-2">
-          <div className="h-[300px] overflow-hidden rounded">
+      <div className="group flex md:w-1/2 w-full flex-col gap-2">
+      <div className="h-[300px] overflow-hidden rounded">
             <Image
               src={PortfolioProjectOne}
               height={200}
@@ -23,7 +23,7 @@ export default function Projects() {
             />
           </div>
           <h3 className="pt-4 font-bold">Nordic restaurant</h3>
-          <p className="h-[50px]">
+          <p className="md:h-[50px]">
             Built using vanilla JavaScript and Webpack, this project offers
             seamless page transitions without reloading.{" "}
           </p>
@@ -39,7 +39,7 @@ export default function Projects() {
           </div>
         </div>
 
-        <div className="group flex w-1/2 flex-col gap-2">
+        <div className="group flex md:w-1/2 w-full flex-col gap-2">
           <div className="h-[300px] overflow-hidden rounded">
             <Image
               src={PortfolioProjectTwo}
