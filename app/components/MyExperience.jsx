@@ -2,7 +2,6 @@
 export default function MyExperience() {
   return (
     <section data-aos="fade-in" id="experience" className="relative flex flex-col justify-center px-5 sm:px-20 py-5 sm:py-16">
-      <p className="text-center text-mainGray">Work/education</p>
       <h2 className="mb-14 text-center text-4xl font-black">My experience</h2>
       <div className="flex flex-col sm:flex-row gap-10">
         <div className="flex sm:w-1/2 flex-col gap-2">

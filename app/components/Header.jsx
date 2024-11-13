@@ -55,10 +55,6 @@ export default function Header() {
             Experience
             <span className="absolute bottom-[-2px] left-0 h-1 w-0 bg-mainGreen duration-300 group-hover:w-full group-hover:transition-all"></span>
           </a>
-          <a href="#contact" className="group relative">
-            Contact
-            <span className="absolute bottom-[-2px] left-0 h-1 w-0 bg-mainGreen duration-300 group-hover:w-full group-hover:transition-all"></span>
-          </a>
         </nav>
 
         <details
@@ -89,9 +85,7 @@ export default function Header() {
           </span>
           <p>Available now</p>
         </a>
-        <a href="#contact" className="rounded bg-black px-4 py-2 text-white">
-          Contact me
-        </a>
+   
       </div>
 
       <div className="topBorder absolute bottom-0 left-0 h-[0.2rem] w-full"></div>

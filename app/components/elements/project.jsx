@@ -2,7 +2,8 @@ import Image from 'next/image';
 
 export function Project({ image, title, description, link }) {
     return (
-        <div className="group flex md:w-1/2 w-full flex-col gap-2">
+        <a href={link}
+            target="_blank" className="group flex md:w-1/2 w-full flex-col gap-2">
             <div className="h-[300px] overflow-hidden rounded">
                 <Image
                     src={image}
@@ -18,15 +19,11 @@ export function Project({ image, title, description, link }) {
                 {description}
             </p>
             <div className="group relative w-max">
-                <a
-                    className="text-sm font-semibold"
-                    href={link}
-                    target="_blank"
-                >
+                <p className="text-sm font-semibold">
                     Check website
-                </a>
+                </p>
                 <span className="absolute bottom-[-2px] left-0 h-1 w-0 bg-mainGreen duration-300 group-hover:w-full group-hover:transition-all"></span>
             </div>
-        </div>
+        </a>
     )
 }

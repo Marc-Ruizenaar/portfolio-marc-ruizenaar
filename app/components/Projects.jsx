@@ -9,7 +9,6 @@ export default function Projects() {
       id="work"
       className="relative flex flex-col items-center justify-center px-5 py-10 sm:px-20"
     >
-      <p className="text-mainGray">Work</p>
       <h2 className="mb-8 text-4xl font-black text-center">Websites I&rsquo;ve created</h2>
       <div className="flex flex-col gap-5 sm:flex-row">
 
