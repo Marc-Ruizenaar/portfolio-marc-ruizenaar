@@ -7,10 +7,10 @@ export default function Projects() {
   return (
     <section
       id="work"
-      className="relative flex flex-col items-center justify-center px-5 py-20 sm:px-20"
+      className="relative flex flex-col items-center justify-center px-5 py-20"
     >
       <h2 className="mb-14 text-4xl font-black text-center">Websites I&rsquo;ve created</h2>
-      <div className="flex flex-col gap-5 sm:flex-row">
+      <div className="flex flex-col md:gap-5 gap-14 md:flex-row">
 
         <Project
           image={PortfolioProjectOne}
