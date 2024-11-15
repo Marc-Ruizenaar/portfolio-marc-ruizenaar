@@ -11,7 +11,7 @@ export function Project({ image, title, description, link }) {
                     width={500}
                     alt=""
                     loading="lazy"
-                    className="h-full w-full object-cover duration-1000 group-hover:scale-150"
+                    className="h-full w-full object-cover duration-1000 group-hover:scale-110"
                 />
             </div>
             <h3 className="pt-4 font-bold">{title}</h3>

@@ -1,6 +1,6 @@
 export default function JumboHeader() {
   return (
-    <section className="flex flex-col relative items-center justify-center gap-4 py-5 h-[60vh] text-center">
+    <section className="flex flex-col relative items-center justify-center gap-4 py-5 h-[80vh] text-center">
       <h1 className="relative text-3xl leading-[3.2rem] md:text-6xl font-black md:leading-[5rem]">
         Front-end developer<br />in Stockholm
       </h1>
