@@ -16,6 +16,7 @@ export default function RootLayout({ children }) {
   return (
     <html lang="en" className={ManRope.className}>
       <body>{children}</body>
+      <Analytics />
     </html>
   );
 }
