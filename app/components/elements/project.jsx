@@ -3,8 +3,8 @@ import Image from 'next/image';
 export function Project({ image, title, description, link }) {
     return (
         <a href={link}
-            target="_blank" className="group flex md:w-1/2 w-full flex-col gap-2">
-            <div className="h-[300px] overflow-hidden rounded">
+            target="_blank" className="group flex flex-col gap-2">
+            <div className="h-[400px] overflow-hidden rounded">
                 <Image
                     src={image}
                     height={200}

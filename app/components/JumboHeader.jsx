@@ -6,12 +6,12 @@ export default function JumboHeader() {
       </h1>
 
       <div className="relative">
-        <h2 className="font-bold text-xl relative z-10">Seeking a 2 days a week internship</h2>
+        <h2 className="font-bold text-xl relative z-10">Available for a new challenge after June 2025</h2>
         <span className="bg-mainGreen absolute bottom-0 left-0 h-1 w-full"></span>
 
       </div>
       <p>
-        Whether you&rsquo;re looking for an intern or just want to get to know me, let&rsquo;s connect!<br /> I&rsquo;m only a message or call away.
+        I don&rsquo;t bite! Let&rsquo;s connect.<br /> I&rsquo;m only a message/call away.
       </p>
 
       <div className="flex gap-5">
