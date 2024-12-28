@@ -33,7 +33,7 @@ export default function Projects() {
           image={PortfolioProjectOne}
           title="Nordic restaurant"
           description="Built using vanilla JavaScript and Webpack, this project offers seamless page transitions without reloading."
-          link="https://marc-ruizenaar.github.io/restaurant_webpack/"
+          link="https://restaurant-webpack-nu.vercel.app/"
         />
 
         <Project
