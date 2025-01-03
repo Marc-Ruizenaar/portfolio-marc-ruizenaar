@@ -14,7 +14,7 @@ export default function Projects() {
       <h2 className="mb-14 text-center text-4xl font-black">
         Websites I&rsquo;ve created
       </h2>
-      <div className="grid grid-cols-2 gap-10">
+      <div className="grid md:grid-cols-2 gap-10">
         <Project
           image={PortfolioQuizMasters}
           title="Quizmasters"
