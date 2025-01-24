@@ -6,7 +6,7 @@ export default function JumboHeader() {
       </h1>
 
       <div className="relative">
-        <h2 className="font-bold text-xl relative z-10">Available for a new challenge after June 2025</h2>
+        <h2 className="font-bold text-xl relative z-10">Available for a new challenge after May 2025</h2>
         <span className="bg-mainGreen absolute bottom-0 left-0 h-1 w-full"></span>
 
       </div>
