@@ -11,7 +11,7 @@ export default function JumboHeader() {
 
       </div>
       <p>
-        I don&rsquo;t bite! Let&rsquo;s connect.<br /> I&rsquo;m only a message/call away.
+        I don&rsquo;t bite! Let&rsquo;s connect.
       </p>
 
       <div className="flex gap-5">
