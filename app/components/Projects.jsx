@@ -6,10 +6,10 @@ import PortfolioQuizMasters from "../assets/portfolio/QuizLayout.jpg";
 import PortfolioMovieApp from "../assets/portfolio/Movie-app.jpg";
 import PortfolioWeatherAPP from "../assets/portfolio/WeatherAPP.jpg";
 import PortfolioLinktree from "../assets/portfolio/Linktree.jpg";
-import Project from "./elements/Project";
 import { useState } from "react";
 import Link from "next/link";
 import LineStyling from "./styling/LineStyling";
+import Project from "./elements/Project";
 
 export default function Projects() {
   const [selectedCategory, setSelectedCategory] = useState("mytop4");
