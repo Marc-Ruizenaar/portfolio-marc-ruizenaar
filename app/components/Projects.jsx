@@ -9,7 +9,7 @@ import PortfolioLinktree from "../assets/portfolio/Linktree.jpg";
 import { useState } from "react";
 import Link from "next/link";
 import LineStyling from "./styling/LineStyling";
-import Project from "./elements/Project";
+import ProjectCard from "./elements/ProjectCard";
 
 export default function Projects() {
   const [selectedCategory, setSelectedCategory] = useState("mytop4");
@@ -147,7 +147,7 @@ export default function Projects() {
       {selectedCategory && (
         <div className="grid gap-10 md:grid-cols-2">
           {filteredProjects.map((project, index) => (
-            <Project
+            <ProjectCard
               key={index}
               image={project.image}
               title={project.title}

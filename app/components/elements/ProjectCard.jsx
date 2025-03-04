@@ -1,7 +1,7 @@
 import Image from "next/image";
 import Link from "next/link";
 
-export default function Project({ image, title, description, link }) {
+export default function ProjectCard({ image, title, description, link }) {
   return (
     <Link href={link} target="_blank" className="group flex flex-col gap-2">
       <div className="h-[400px] overflow-hidden rounded">
