@@ -1,9 +1,14 @@
 import Image from "next/image";
 import BackgroundImage from "../assets/backgroundImage.jpg";
+import Link from "next/link";
+import PushAnimation from "./elements/PushAnimation";
 
 export default function ItsTime() {
   return (
-    <section data-aos="fade-in" className="z-20 relative flex h-[200px] flex-col mt-10 items-center justify-center gap-5 overflow-hidden">
+    <section
+      data-aos="fade-in"
+      className="relative z-20 mt-10 flex h-[200px] flex-col items-center justify-center gap-5 overflow-hidden"
+    >
       <Image
         src={BackgroundImage}
         height={300}
@@ -15,25 +20,20 @@ export default function ItsTime() {
 
       <p className="text-4xl font-bold text-white">Let&rsquo;s connect!</p>
       <div className="flex gap-4">
-        <a
+        <Link
           href="mailto:info@marcruizenaar.com"
           className="rounded border-[1px] border-white px-4 py-2 text-white"
         >
           Send a email
-        </a>
-        <a
+        </Link>
+        <Link
           href="tel:+31628672650"
-          className="rounded border-[1px] border-white px-4 py-2 flex items-center gap-3 text-white"
+          className="flex items-center gap-3 rounded border-[1px] border-white px-4 py-2 text-white"
         >
-          <span className="relative flex h-3 w-3">
-            <span className="bg-mainGreen absolute inline-flex h-full w-full animate-ping rounded-full opacity-75"></span>
-            <span className="relative inline-flex h-3 w-3 rounded-full bg-green-600"></span>
-          </span>
+          <PushAnimation />
           Call me directly
-        </a>
+        </Link>
       </div>
-
-
     </section>
   );
 }

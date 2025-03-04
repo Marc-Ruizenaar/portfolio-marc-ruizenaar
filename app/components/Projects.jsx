@@ -1,11 +1,15 @@
 import PortfolioProjectOne from "../assets/portfolio/Norwegan-project.jpg";
 import PortfolioCabens from "../assets/portfolio/WoodenCabens.jpg";
+import PortfolioGreenbytes from "../assets/portfolio/Greenbytes.jpg";
+import PortfolioMijnVakantieStek from "../assets/portfolio/MijnVakantieStek.jpg";
 import PortfolioQuizMasters from "../assets/portfolio/QuizLayout.jpg";
 import PortfolioMovieApp from "../assets/portfolio/Movie-app.jpg";
 import PortfolioWeatherAPP from "../assets/portfolio/WeatherAPP.jpg";
 import PortfolioLinktree from "../assets/portfolio/Linktree.jpg";
-import { Project } from "./elements/project";
+import { Project } from "./elements/Project";
 import { useState } from "react";
+import Link from "next/link";
+import LineStyling from "./styling/LineStyling";
 
 export default function Projects() {
   const [selectedCategory, setSelectedCategory] = useState("mytop4");
@@ -77,6 +81,22 @@ export default function Projects() {
       link: "https://wood-houses-website-gasf.vercel.app/",
       categories: ["react"],
     },
+    {
+      image: PortfolioGreenbytes,
+      title: "Greenbytes",
+      description:
+        "Custom Wordpress theme build with Woocommerce, for a computershop.",
+      link: "https://greenbytes.nl/",
+      categories: ["wordpress"],
+    },
+    {
+      image: PortfolioMijnVakantieStek,
+      title: "MijnVakantieStek",
+      description:
+        "Holiday home rental platform, build with a custom Wordpress theme and Advanced Custom Fields (ACF)",
+      link: "https://mijnvakantiestek.nl/",
+      categories: ["wordpress"],
+    },
   ];
 
   const handleCategoryClick = (e) => {
@@ -103,10 +123,10 @@ export default function Projects() {
             <button
               data-category={category.id}
               onClick={handleCategoryClick}
-              className={`rounded-xl border-2  px-4 py-2 font-bold ${
+              className={`rounded-xl border-2 px-4 py-2 font-bold ${
                 selectedCategory === category.id
-                  ? "bg-green-600 border-green-600 text-white"
-                  : "bg-transparent border-mainGreen text-green-600"
+                  ? "border-green-600 bg-green-600 text-white"
+                  : "border-mainGreen bg-transparent text-green-600"
               }`}
               key={category.id}
             >
@@ -115,6 +135,14 @@ export default function Projects() {
           );
         })}
       </div>
+
+      {selectedCategory === "wordpress" && (
+          <p className="text-center">
+            These WordPress projects were developed during my employment at
+            Marketing Hunters. <br/>During these years, I created over 50 WordPress and
+            WooCommerce websites.
+          </p>
+      )}
 
       {selectedCategory && (
         <div className="grid gap-10 md:grid-cols-2">
@@ -131,17 +159,15 @@ export default function Projects() {
         </div>
       )}
 
-      <a
+      <Link
         target="_blank"
         href="https://github.com/Marc-Ruizenaar"
         className="mt-10 inline-block rounded-xl border-[1px] border-black px-4 py-2 text-center"
       >
         Check out my code
-      </a>
+      </Link>
 
-      <div className="topBorder absolute bottom-0 left-0 h-[0.2rem] w-full"></div>
-      <div className="corners absolute bottom-[-8px] left-0 z-10 h-5 w-5"></div>
-      <div className="corners absolute bottom-[-8px] right-0 z-10 h-5 w-5 rotate-180"></div>
+      <LineStyling />
     </section>
   );
 }
