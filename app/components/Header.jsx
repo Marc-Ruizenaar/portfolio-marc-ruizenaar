@@ -2,7 +2,7 @@
 import Image from "next/image";
 import ProfilePicture from "../assets/Marc-Ruizenaar-Front-end-Developer.jpg";
 import { useEffect, useRef } from "react";
-import HeaderStyling from "./styling/headerStyling";
+import HeaderStyling from "./styling/HeaderStyling";
 import Link from "next/link";
 import LineStyling from "./styling/LineStyling";
 
