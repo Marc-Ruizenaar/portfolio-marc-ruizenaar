@@ -51,14 +51,16 @@ export default function Header() {
       <HeaderStyling />
 
       <div className="flex w-full items-center justify-between gap-6 md:justify-normal md:pl-6">
-        <Image
-          src={ProfilePicture}
-          height={50}
-          width={50}
-          alt=""
-          loading="eager"
-          className="z-50 rounded-full object-cover"
-        />
+        <Link href={"./"}>
+          <Image
+            src={ProfilePicture}
+            height={50}
+            width={50}
+            alt=""
+            loading="eager"
+            className="z-50 rounded-full object-cover"
+          />
+        </Link>
 
         <nav id="headerNav" className="hidden md:flex md:gap-4 lg:gap-8">
           <ul className="flex gap-4 lg:gap-8">
