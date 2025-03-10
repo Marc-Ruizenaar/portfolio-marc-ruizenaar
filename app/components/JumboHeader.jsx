@@ -14,7 +14,7 @@ export default function JumboHeader() {
         <h2 className="relative z-10 text-xl font-bold">
           Available for a new challenge after May 2025
         </h2>
-        <span className="absolute bottom-0 left-0 h-1 w-full bg-mainGreen"></span>
+        {/* <span className="absolute bottom-0 left-0 h-1 w-full bg-mainGreen"></span> */}
       </div>
       <p>I don&rsquo;t bite! Let&rsquo;s connect.</p>
 
