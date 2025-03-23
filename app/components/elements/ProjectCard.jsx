@@ -4,7 +4,7 @@ import Link from "next/link";
 export default function ProjectCard({ image, title, description, link }) {
   return (
     <Link href={link} target="_blank" className="group flex flex-col gap-2">
-      <div className="h-[400px] overflow-hidden rounded">
+      <div className="h-[400px] overflow-hidden relative rounded">
         <Image
           src={image}
           height={200}
@@ -13,6 +13,7 @@ export default function ProjectCard({ image, title, description, link }) {
           loading="lazy"
           className="h-full w-full object-cover duration-1000 group-hover:scale-110"
         />
+        <div className="absolute bottom-2 right-2"></div>
       </div>
       <h3 className="pt-4 font-bold">{title}</h3>
       <p>{description}</p>

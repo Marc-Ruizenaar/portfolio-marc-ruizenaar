@@ -16,7 +16,7 @@ export default function JumboHeader() {
         </h2>
         {/* <span className="absolute bottom-0 left-0 h-1 w-full bg-mainGreen"></span> */}
       </div>
-      <p>I don&rsquo;t bite! Let&rsquo;s connect.</p>
+      <p>Interested in a React frontend development job.</p>
 
       <div className="flex gap-5">
         <a

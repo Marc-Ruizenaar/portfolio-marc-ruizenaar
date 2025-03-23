@@ -30,9 +30,14 @@ export default function AboutMe() {
           <span className="absolute bottom-[-5px] block h-1 w-full bg-mainGreen"></span>
         </div>
         <p>
-          I&rsquo;m a Dutch developer living in Stockholm, I&rsquo;ve been
-          passionate about coding for the past three years. I&rsquo;ve spent
-          these years building custom WordPress themes and plugins.
+          I’m a Dutch developer living in Stockholm. Before moving here, I ran
+          my own web agency, where I built and designed websites while managing
+          a team of eight people.
+        </p>
+        <p className="mt-2">
+          I always had an interest in React, and after five years of running my
+          company, I decided to take a step back and spend a year studying at
+          Hyper Island.
         </p>
         <p className="mt-2">
           When I&rsquo;m not coding, you can probably find me windsurfing or

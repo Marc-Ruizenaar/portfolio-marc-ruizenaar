@@ -12,13 +12,9 @@ import LineStyling from "./styling/LineStyling";
 import ProjectCard from "./elements/ProjectCard";
 
 export default function Projects() {
-  const [selectedCategory, setSelectedCategory] = useState("mytop4");
+  const [selectedCategory, setSelectedCategory] = useState("react");
 
   const categories = [
-    {
-      title: "Best & New",
-      id: "mytop4",
-    },
     {
       title: "React",
       id: "react",
@@ -40,7 +36,7 @@ export default function Projects() {
       description:
         "I build a Linktree-builder platform. I intentionally chose a competitive SaaS platform so I could look the other sites and see how they designed/build there site.",
       link: "https://store-creator.vercel.app/",
-      categories: ["mytop4", "react"],
+      categories: ["react"],
     },
     {
       image: PortfolioMovieApp,
@@ -48,7 +44,7 @@ export default function Projects() {
       description:
         "As a team of two, we developed a website using React and an external API to fetch and display movies.",
       link: "https://stream-vibe-movies.netlify.app/",
-      categories: ["mytop4", "react"],
+      categories: ["react"],
     },
     {
       image: PortfolioQuizMasters,
@@ -137,11 +133,12 @@ export default function Projects() {
       </div>
 
       {selectedCategory === "wordpress" && (
-          <p className="text-center">
-            These WordPress projects were developed during my employment at
-            Marketing Hunters. <br/>During these years, I created over 50 WordPress and
-            WooCommerce websites.
-          </p>
+        <p className="text-center">
+          These WordPress projects were developed during my employment at
+          Marketing Hunters. <br />
+          During these years, I created over 50 WordPress and WooCommerce
+          websites.
+        </p>
       )}
 
       {selectedCategory && (

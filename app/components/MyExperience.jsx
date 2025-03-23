@@ -23,11 +23,10 @@ export default function MyExperience() {
             <span className="pl-2 text-sm font-normal">2019 - jul 2024</span>
           </h4>
           <p className="pl-4">
-            Marketing Hunters is a marketing, design, and development agency
-            based in the Netherlands. Our team is capable of designing,
-            building, and launching websites and webshops. <br />
-            <br /> As a CO-Owner, my responsibilities spanned from leading the
-            team, designing/building websites and handling client relations.
+            As a former co-owner of this web agency, I mainly focused on leading the
+            design and development team. My role also involved collaborating
+            with our clients, as well as designing and developing custom Wordpress
+            websites and plugins.
           </p>
 
           <div className="relative mb-3 h-5 w-full">
