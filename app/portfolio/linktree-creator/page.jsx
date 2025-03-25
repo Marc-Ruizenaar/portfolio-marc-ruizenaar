@@ -1,6 +1,7 @@
-import Footer from "@/app/components/Footer";
-import Header from "@/app/components/Header";
-import ItsTime from "@/app/components/ItsTime";
+import Footer from "../../components/Footer";
+import Header from "../../components/Header";
+import ItsTime from "../../components/ItsTime";
+
 
 export default function LinkTreeCreatorPage() {
   return (
