@@ -14,9 +14,8 @@ export default function JumboHeader() {
         <h2 className="relative z-10 text-xl font-bold">
           Available for a new challenge after May 2025
         </h2>
-        {/* <span className="absolute bottom-0 left-0 h-1 w-full bg-mainGreen"></span> */}
       </div>
-      <p>Interested in a React frontend development job.</p>
+      <p>Interested in a React front-end development job.</p>
 
       <div className="flex gap-5">
         <a
@@ -25,7 +24,6 @@ export default function JumboHeader() {
         >
           Send a email
         </a>
-
         <a
           className="flex items-center gap-3 rounded-xl bg-black px-5 py-3 text-sm text-white"
           href="tel:+31628672650"

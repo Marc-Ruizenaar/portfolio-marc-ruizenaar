@@ -36,8 +36,7 @@ export default function AboutMe() {
         </p>
         <p className="mt-2">
           I always had an interest in React, and after five years of running my
-          company, I decided to take a step back and spend a year studying at
-          Hyper Island.
+          company, I decided to take a step back and spend a year studying React.
         </p>
         <p className="mt-2">
           When I&rsquo;m not coding, you can probably find me windsurfing or

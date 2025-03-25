@@ -6,6 +6,7 @@ import PortfolioQuizMasters from "../assets/portfolio/QuizLayout.jpg";
 import PortfolioMovieApp from "../assets/portfolio/Movie-app.jpg";
 import PortfolioWeatherAPP from "../assets/portfolio/WeatherAPP.jpg";
 import PortfolioLinktree from "../assets/portfolio/Linktree.jpg";
+import PortfolioPlants from "../assets/portfolio/Plants.jpg";
 import { useState } from "react";
 import Link from "next/link";
 import LineStyling from "./styling/LineStyling";
@@ -36,6 +37,14 @@ export default function Projects() {
       description:
         "I build a Linktree-builder platform. I intentionally chose a competitive SaaS platform so I could look the other sites and see how they designed/build there site.",
       link: "https://store-creator.vercel.app/",
+      categories: ["react"],
+    },
+    {
+      image: PortfolioPlants,
+      title: "Plants",
+      description:
+        "E-commerce platform built in Next.js, React Query, TypeScript, Stripe, and Tailwind.",
+      link: "https://ecommerce-plants-liard.vercel.app/",
       categories: ["react"],
     },
     {
