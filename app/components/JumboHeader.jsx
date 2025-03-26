@@ -12,7 +12,7 @@ export default function JumboHeader() {
 
       <div className="relative">
         <h2 className="relative z-10 text-xl font-bold">
-          Available for a new challenge after May 2025
+          Available for a new challenge
         </h2>
       </div>
       <p>Interested in a React front-end development job.</p>
