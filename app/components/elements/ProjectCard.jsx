@@ -1,26 +1,79 @@
 import Image from "next/image";
+import { useState } from "react";
+import PortfolioPopup from "../popups/PortfolioPopup";
 import Link from "next/link";
 
-export default function ProjectCard({ image, title, description, link }) {
+export default function ProjectCard({
+  imageOne,
+  title,
+  description,
+  seeMore,
+  project,
+  link
+}) {
+  const [isPopupOpen, setIsPopupOpen] = useState(false);
+
+  const handleClick = () => {
+    if (seeMore === true) {
+      setIsPopupOpen(true);
+    }
+  };
+
   return (
-    <Link href={link} target="_blank" className="group flex flex-col gap-2">
-      <div className="relative h-[400px] overflow-hidden rounded">
-        <Image
-          src={image}
-          height={200}
-          width={500}
-          alt=""
-          loading="lazy"
-          className="h-full w-full object-cover duration-1000 group-hover:scale-110"
-        />
-        <div className="absolute bottom-2 right-2"></div>
-      </div>
-      <h3 className="pt-4 font-bold">{title}</h3>
-      <p>{description}</p>
-      <div className="group relative w-max">
-        <p className="text-sm font-semibold">Check website</p>
-        <span className="absolute bottom-[-2px] left-0 h-1 w-0 bg-mainGreen duration-300 group-hover:w-full group-hover:transition-all"></span>
-      </div>
-    </Link>
+    <>
+      {seeMore === true ? (
+        <button
+          className="group text-left flex flex-col gap-2"
+          onClick={handleClick}
+        >
+          <div className="relative h-[400px] overflow-hidden rounded">
+            <Image
+              src={imageOne}
+              height={200}
+              width={500}
+              alt=""
+              loading="lazy"
+              className="h-full w-full object-cover duration-1000 group-hover:scale-110"
+            />
+            <div className="absolute bottom-2 right-2"></div>
+          </div>
+          <h3 className="pt-4 font-bold">{title}</h3>
+          <p>{description}</p>
+          <div className="group relative w-max">
+            <p className="text-sm font-semibold">Check project</p>
+            <span className="absolute bottom-[-2px] left-0 h-1 w-0 bg-mainGreen duration-300 group-hover:w-full group-hover:transition-all"></span>
+          </div>
+        </button>
+      ) : (
+        <Link 
+          href={link} 
+          target="_blank" 
+          rel="noopener noreferrer"
+          className="group text-left flex flex-col gap-2"
+        >
+          <div className="relative h-[400px] overflow-hidden rounded">
+            <Image
+              src={imageOne}
+              height={200}
+              width={500}
+              alt=""
+              loading="lazy"
+              className="h-full w-full object-cover duration-1000 group-hover:scale-110"
+            />
+            <div className="absolute bottom-2 right-2"></div>
+          </div>
+          <h3 className="pt-4 font-bold">{title}</h3>
+          <p>{description}</p>
+          <div className="group relative w-max">
+            <p className="text-sm font-semibold">View site</p>
+            <span className="absolute bottom-[-2px] left-0 h-1 w-0 bg-mainGreen duration-300 group-hover:w-full group-hover:transition-all"></span>
+          </div>
+        </Link>
+      )}
+
+      {isPopupOpen && (
+        <PortfolioPopup project={project} onClose={() => setIsPopupOpen(false)} />
+      )}
+    </>
   );
 }

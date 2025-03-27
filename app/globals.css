@@ -16,10 +16,11 @@ body.no-scroll {
 }
 
 details summary::-webkit-details-marker {
-  display:none;
+  display: none;
 }
 
-.leftBorder, .rightBorder {
+.leftBorder,
+.rightBorder {
   background-image: url(./assets/borderX.svg);
   background-repeat: repeat-y;
   background-size: 3px;
@@ -39,4 +40,3 @@ details summary::-webkit-details-marker {
   background-image: url(./assets/cornersHalf.svg);
   background-repeat: no-repeat;
 }
-
