@@ -3,7 +3,7 @@ import LineStyling from "./styling/LineStyling";
 
 export default function JumboHeader() {
   return (
-    <section className="relative flex h-[60vh] flex-col items-center justify-center gap-4 py-5 text-center md:h-[80vh]">
+    <section className="relative flex h-[80vh] flex-col items-center justify-center gap-4 py-5 text-center md:h-[80vh]">
       <h1 className="relative text-3xl font-black leading-[3.2rem] md:text-6xl md:leading-[5rem]">
         Front-end developer
         <br />
