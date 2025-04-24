@@ -13,7 +13,7 @@ export default function ItsTime() {
         src={BackgroundImage}
         height={300}
         width={300}
-        alt="Profile picture Marc Ruizenaar Front-end developer"
+        alt="Profile picture Marc Ruizenaar Full-stack developer"
         loading="lazy"
         className="unset-0 absolute -z-10 w-screen object-cover"
       />

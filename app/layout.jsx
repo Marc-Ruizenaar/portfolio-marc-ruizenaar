@@ -8,8 +8,8 @@ const ManRope = Manrope({
 })
 
 export const metadata = {
-  title: "Marc Ruizenaar - Front-end developer",
-  description: "Front-end developer in Stockholm, looking for a new challenge!",
+  title: "Marc Ruizenaar - Full-stack developer",
+  description: "Full-stack developer in Stockholm, looking for a new challenge!",
 };
 
 export default function RootLayout({ children }) {

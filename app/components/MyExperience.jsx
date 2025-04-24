@@ -23,10 +23,10 @@ export default function MyExperience() {
             <span className="pl-2 text-sm font-normal">2019 - jul 2024</span>
           </h4>
           <p className="pl-4">
-            As a former co-owner of this web agency, I mainly focused on leading the
-            design and development team. My role also involved collaborating
-            with our clients, as well as designing and developing custom Wordpress
-            websites and plugins.
+            As a former co-owner of this web agency, I mainly focused on leading
+            the design and development team. My role also involved collaborating
+            with our clients, as well as designing and developing custom
+            Wordpress websites and plugins.
           </p>
 
           <div className="relative mb-3 h-5 w-full">
@@ -64,7 +64,7 @@ export default function MyExperience() {
           </div>
 
           <h4 className="font-bold">
-            Front-end developer
+            Full-stack developer
             <span className="pl-2 text-sm font-normal">2024 - current</span>
           </h4>
           <p className="pl-4">Hyper Island</p>

@@ -14,7 +14,7 @@ export default function AboutMe() {
           src={ProfilePicture}
           height={300}
           width={300}
-          alt="Profile picture Marc Ruizenaar Front-end developer"
+          alt="Profile picture Marc Ruizenaar Full-stack developer"
           loading="eager"
           className="rounded-full"
           srcSet={`${ProfilePicture}?w=150 150w,

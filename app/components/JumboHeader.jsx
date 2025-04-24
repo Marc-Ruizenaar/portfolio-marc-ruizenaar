@@ -5,7 +5,7 @@ export default function JumboHeader() {
   return (
     <section className="relative flex h-[80vh] flex-col items-center justify-center gap-4 py-5 text-center md:h-[80vh]">
       <h1 className="relative text-3xl font-black leading-[3.2rem] md:text-6xl md:leading-[5rem]">
-        Front-end developer
+        Full-stack developer
         <br />
         in Stockholm
       </h1>
@@ -15,7 +15,7 @@ export default function JumboHeader() {
           Available for a new challenge
         </h2>
       </div>
-      <p>Interested in a React front-end development job.</p>
+      <p>Interested in a full-stack development job.</p>
 
       <div className="flex gap-5">
         <a
