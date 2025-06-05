@@ -30,17 +30,17 @@ export default function AboutMe() {
           <span className="absolute bottom-[-5px] block h-1 w-full bg-mainGreen"></span>
         </div>
         <p>
-          I’m a Dutch developer living in Stockholm. Before moving here, I ran
-          my own web agency, where I built and designed websites while managing
-          a team of eight people.
+          Alongside my passion for coding, I have a love for windsurfing and
+          wakeboarding. If I’m not behind a screen, you can find me around a
+          lake or the sea.
         </p>
-        <p className="mt-2">
-          I always had an interest in React, and after five years of running my
-          company, I decided to take a step back and spend a year studying React.
-        </p>
-        <p className="mt-2">
-          When I&rsquo;m not coding, you can probably find me windsurfing or
-          enjoying other sports.
+
+        <p className="mt-4">
+          Before diving into web development, I worked as a designer (mainly
+          packaging design). To me, building a website is a lot like designing a
+          carton box. Instead of folding it into shape, you're building
+          different pages, making sure everything fits together seamlessly for
+          the best experience.
         </p>
       </div>
 

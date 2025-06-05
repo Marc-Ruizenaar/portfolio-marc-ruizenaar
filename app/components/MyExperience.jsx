@@ -64,10 +64,10 @@ export default function MyExperience() {
           </div>
 
           <h4 className="font-bold">
-            Full-stack developer
-            <span className="pl-2 text-sm font-normal">2024 - current</span>
+            Upskill - Frontend developer
+            <span className="pl-2 text-sm font-normal">2024 - 2025</span>
           </h4>
-          <p className="pl-4">Hyper Island</p>
+          <p className="pl-4">Hyper Island - Stockholm</p>
 
           <div className="relative mb-3 h-5 w-full">
             <div className="topBorder absolute bottom-0 left-0 h-[0.2rem] w-full"></div>
