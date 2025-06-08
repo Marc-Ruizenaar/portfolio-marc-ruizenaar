@@ -56,7 +56,7 @@ export default function Header() {
             src={ProfilePicture}
             height={50}
             width={50}
-            alt=""
+            alt="Marc Ruizenaar"
             loading="eager"
             className="z-50 rounded-full object-cover"
           />

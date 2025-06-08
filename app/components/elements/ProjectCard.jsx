@@ -9,7 +9,8 @@ export default function ProjectCard({
   description,
   seeMore,
   project,
-  link
+  link,
+  blog,
 }) {
   const [isPopupOpen, setIsPopupOpen] = useState(false);
 
@@ -23,7 +24,7 @@ export default function ProjectCard({
     <>
       {seeMore === true ? (
         <button
-          className="group text-left flex flex-col gap-2"
+          className="group flex flex-col gap-2 text-left"
           onClick={handleClick}
         >
           <div className="relative h-[400px] overflow-hidden rounded">
@@ -31,7 +32,7 @@ export default function ProjectCard({
               src={imageOne}
               height={200}
               width={500}
-              alt=""
+              alt={title}
               loading="lazy"
               className="h-full w-full object-cover duration-1000 group-hover:scale-110"
             />
@@ -40,23 +41,29 @@ export default function ProjectCard({
           <h3 className="pt-4 font-bold">{title}</h3>
           <p>{description}</p>
           <div className="group relative w-max">
-            <p className="text-sm font-semibold">Check project</p>
+            {blog ? (
+              <>
+                <p className="text-sm font-semibold">Read more</p>
+              </>
+            ) : (
+              <p className="text-sm font-semibold">Check project</p>
+            )}
             <span className="absolute bottom-[-2px] left-0 h-1 w-0 bg-mainGreen duration-300 group-hover:w-full group-hover:transition-all"></span>
           </div>
         </button>
       ) : (
-        <Link 
-          href={link} 
-          target="_blank" 
+        <Link
+          href={link}
+          target="_blank"
           rel="noopener noreferrer"
-          className="group text-left flex flex-col gap-2"
+          className="group flex flex-col gap-2 text-left"
         >
           <div className="relative h-[400px] overflow-hidden rounded">
             <Image
               src={imageOne}
               height={200}
               width={500}
-              alt=""
+              alt={title}
               loading="lazy"
               className="h-full w-full object-cover duration-1000 group-hover:scale-110"
             />
@@ -72,7 +79,11 @@ export default function ProjectCard({
       )}
 
       {isPopupOpen && (
-        <PortfolioPopup project={project} onClose={() => setIsPopupOpen(false)} />
+        <PortfolioPopup
+          project={project}
+          onClose={() => setIsPopupOpen(false)}
+          blog={blog}
+        />
       )}
     </>
   );

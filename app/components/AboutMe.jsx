@@ -31,14 +31,14 @@ export default function AboutMe() {
         </div>
         <p>
           Alongside my passion for coding, I have a love for windsurfing and
-          wakeboarding. If I’m not behind a screen, you can find me around a
+          wakeboarding. If I&#39;m not behind a screen, you can find me around a
           lake or the sea.
         </p>
 
         <p className="mt-4">
-          Before diving into web development, I worked as a designer (mainly
-          packaging design). To me, building a website is a lot like designing a
-          carton box. Instead of folding it into shape, you're building
+          Before diving into web development, I worked as a designer &#40;mainly
+          packaging design&#41;. To me, building a website is a lot like designing a
+          carton box. Instead of folding it into shape, you&#39;re building
           different pages, making sure everything fits together seamlessly for
           the best experience.
         </p>

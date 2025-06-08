@@ -13,7 +13,7 @@ export default function JumboHeader() {
           Available for a new challenge
         </h2>
       </div>
-      <p>Interested in a full-stack development job.</p>
+      <p>Interested in a full-stack or frontend development job.</p>
 
       <div className="flex gap-5">
         <a
