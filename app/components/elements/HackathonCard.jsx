@@ -27,7 +27,7 @@ export default function HackathonCard({
           className="group flex flex-col gap-2 text-left"
           onClick={handleClick}
         >
-          <div className="relative h-[300px] overflow-hidden rounded">
+          <div className="relative md:h-[300px] h-40 overflow-hidden rounded">
             <Image
               src={imageOne}
               height={200}
