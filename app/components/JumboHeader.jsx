@@ -14,7 +14,7 @@ export default function JumboHeader() {
           foundation
         </h2>
       </div>
-      <p>Want to be part of something bigger? Let's talk!</p>
+      <p>Want to be part of something bigger? Let&apos;s talk!</p>
 
       <div className="flex gap-5">
         <a
