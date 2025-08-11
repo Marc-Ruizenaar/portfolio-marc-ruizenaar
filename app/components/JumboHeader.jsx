@@ -3,17 +3,17 @@ import LineStyling from "./styling/LineStyling";
 
 export default function JumboHeader() {
   return (
-    <section className="relative flex h-[80vh] flex-col items-center justify-center gap-4 py-5 text-center md:h-[80vh]">
+    <section className="relative flex h-[80vh] flex-col items-center justify-center gap-4 py-5 text-center md:h-[60vh]">
       <h1 className="relative text-3xl font-black leading-[3.2rem] md:text-6xl md:leading-[5rem]">
-        Full-stack developer
+        Building something cool
       </h1>
 
       <div className="relative">
         <h2 className="relative z-10 text-xl font-bold">
-          Available for a new challenge
+          To protect our privacy!
         </h2>
       </div>
-      <p>Interested in a full-stack or frontend development job.</p>
+      <p>Soon more information!</p>
 
       <div className="flex gap-5">
         <a
